@@ -16,7 +16,7 @@ function Mainport(){
                 </div>
                 <div className="experianceprofessionel">
                     <h1><i className="bi bi-briefcase"></i> Expériences professionnelles </h1>
-                    <p>Au cours de mon parcours académique, j'ai eu l'occasion de faire des stages académiques et professionnels dans des hôpitaux et travailler sur plusieurs projets qui m'ont permis de mettre en pratique mes compétences en développement plusieurs logiciels. Ce sont notamment :</p>
+                    <p>Au cours de mon parcours académique, j'ai eu l'occasion de faire des stages académiques et professionnels dans des hôpitaux et travailler sur plusieurs projets qui m'ont permis de mettre en pratique mes compétences en développement logiciel. Ce sont notamment :</p>
                     <div className="experiences">
                         <div className="experience-item">
                             <h3>STAGE PROFESSIONNEL EN GENIE LOGICIEL | Hôpital Gynéco-Obstétrique et Pédiatrique de Douala</h3>
