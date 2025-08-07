@@ -10,7 +10,7 @@ function Header() {
         <img src={img1} alt="Description of image" className="img-fluid" />
         <div className="user-info">
             <h1>NOGUE FOTUE Wilfride Rayan</h1>
-            <h3>Developeur web full stack</h3>
+            <h3>Développeur web full stack</h3>
             <div className="contacts">
                 <div className="contacts-items">
                     {/*icone de linkedin */}
