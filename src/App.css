@@ -76,13 +76,13 @@ header {
   gap: 1rem;
 }
 
-.left {
+.hgauche {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
-header .left img{
+header .hgauche img{
   width: 175px;
   height: 175px;
   border-radius: 50%;
@@ -120,7 +120,7 @@ header .left img{
   color: #ee07ff; /* jaune au survol, tu peux personnaliser */
 }
 
-.right {
+.hdroite {
   text-align: center;
 }
 
@@ -143,20 +143,23 @@ header .left img{
 @media (min-width: 768px) {
   header {
     flex-direction: row;
-    padding: 2rem 4rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
   }
 
-  .left {
+  .hgauche {
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 0;
   }
 
   .user-info {
     text-align: left;
   }
 
-  .right {
+  .hdroite {
     text-align: right;
   }
 }
+

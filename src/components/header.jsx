@@ -5,8 +5,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import img1 from '../assets/img/IMG-20241021-WA0001.jpg';
 function Header() {
   return (
-    <header className="text-white p-3 container-fluid">
-      <div className="container-fluid left">
+    <header className="text-white  container-fluid">
+      <div className="container-fluid hgauche">
         <img src={img1} alt="Description of image" className="img-fluid" />
         <div className="user-info">
             <h1>NOGUE FOTUE Wilfride Rayan</h1>
@@ -14,27 +14,36 @@ function Header() {
             <div className="contacts">
                 <div className="contacts-items">
                     {/*icone de linkedin */}
-                    <i className="bi bi-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/rayan-nogue-70b5a6316/" target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-linkedin"></i>
+                    </a>
                 </div>
                 <div className="contacts-items">
                     {/*icone de whatsapp */}
-                    <i className="bi bi-whatsapp"></i>
+                    <a href="https://wa.me/237680810536" target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-whatsapp"></i>
+                    </a>
                 </div>
                 <div className="contacts-items">
                     {/*icone de git */}
-                    <i className="bi bi-github"></i>
+                    <a href="https://github.com/Wilfriderayan" target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-github"></i>
+                    </a>
                 </div>
                 <div className="contacts-items">
                     {/*icone de facebook */}
-                    <i className="bi bi-facebook"></i>
+                    <a href="https://www.facebook.com/Rayan.NOGUE" target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-facebook"></i>
+                    </a>
                 </div>
             </div>
         </div>
 
       </div>
-      <div className="right">
-        <button className="contact-btn "><i className="bi bi-envelope"></i>contactez-moi</button>
-        
+      <div className="hdroite">
+       <a href="mailto:noguerayan9@gmail.com" >
+           <button className="contact-btn "><i className="bi bi-envelope"></i>contactez-moi</button>
+       </a>
       </div>
     </header>
   );

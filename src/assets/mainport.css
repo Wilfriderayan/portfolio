@@ -1,0 +1,129 @@
+/* ===================== */
+/* MAIN CONTAINER */
+.main-container {
+  display: flex;
+  padding: 5px 0.5%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gauche {
+  flex: 3;
+  min-width: 300px;
+}
+
+.droite {
+  flex: 1;
+  min-width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* ===================== */
+/* SECTIONS GAUCHE */
+.apropos, .experianceprofessionel, .mesprojets {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.apropos{
+    background-color: #f3f3f3;
+}
+
+.apropos h1, .experianceprofessionel h1, .mesprojets h1 {
+  color: #007B8A;
+  margin-bottom: 10px;
+}
+.experience-item,
+.projet-item {
+  margin-top: 15px;
+  background: #f3f3f3;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.experience-item h3,
+.projet-item h3 {
+  font-size: 18px;
+  color: #007B8A;
+}
+.period {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.technologies span {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #007B8A;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+.link a {
+  color: #007B8A;
+  font-weight:500;
+}
+
+/* ===================== */
+/* DROITE */
+.droite h2, .droite h1 {
+  margin-bottom: 10px;
+  color: #007B8A;
+}
+
+.droite ul {
+  list-style: disc inside;
+  padding-left: 10px;
+}
+
+.droite p {
+  margin-bottom: 10px;
+}
+.droite .contacts, .droite .mestechnologies, .droite .mescompetances{
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* ===================== */
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 5%;
+  }
+
+  .main-container {
+    flex-direction: column;
+    padding: 20px 5%;
+  }
+
+  .gauche, .droite {
+    width: 100%;
+  }
+
+  .left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-info h1 {
+    font-size: 20px;
+  }
+
+  .user-info h3 {
+    font-size: 14px;
+  }
+
+  .contact-btn {
+    margin-top: 10px;
+  }
+}
+
