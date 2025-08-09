@@ -141,18 +141,19 @@ header .hgauche img{
 }
 
 /* Responsive layout pour grand écran */
-@media (min-width: 768px) {
+@media (min-width: 490px) {
   header {
     flex-direction: row;
     padding: 0;
     margin: 0;
     width: 100%;
+    align-items: center;
   }
 
   .hgauche {
     flex-direction: row;
     align-items: center;
-    gap: 0;
+    border-radius: 10%;
   }
 
   .user-info {
@@ -164,3 +165,33 @@ header .hgauche img{
   }
 }
 
+/*resp pour petit ecrans*/
+
+@media (max-width: 490px){
+  header {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+  .hgauche {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .user-info {
+    text-align: left;
+  }
+
+  .hdroite {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+}
+ 
